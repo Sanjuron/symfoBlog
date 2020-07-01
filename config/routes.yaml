@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+# app_lucky_number: # création d'une route avec un chemin (l'url) et un controller la fonction écrite dans src/controller
+#   path: /lucky/number
+#   controller: App\Controller\LuckyController::number
